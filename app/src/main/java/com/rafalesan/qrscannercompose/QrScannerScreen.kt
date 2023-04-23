@@ -61,7 +61,6 @@ fun QrScannerScreen() {
 
     if (isCameraPermissionGranted) {
         ScannerContent()
-        return
     } else {
         RequestCameraPermissionButton(
             cameraPermissionLauncher
